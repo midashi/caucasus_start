@@ -1,10 +1,65 @@
 @import url(../fonts/fonts.css);
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #FFF;
-    font-style: normal;
-    font-weight: 400;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-height: 100%;
+  width: auto;
+}
+
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 1195px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper-wide {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__logo {
+  position: absolute;
+  left: 122px;
+  top: 42px;
+}
+
+.logo__link {
+  display: block;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logo__link:hover {
+  opacity: 0.5;
+}
+
+.header__menu {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  width: 658px;
+  height: 14px;
+  left: 412px;
+  top: 69px;
+}
+
