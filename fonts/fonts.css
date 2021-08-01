@@ -1,9 +1,3 @@
 @font-face {
-    font-family: "Font";
-    src:
-      url("../fonts/Font.woff2") format("woff2"),
-      url("../fonts/Font.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-  }
-  
+    font-family: 'Montserrat', sans-serif;
+    }

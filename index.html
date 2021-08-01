@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caucasus Oligova Madina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -44,7 +47,7 @@
                 </nav>
             </div>
             <div class="header__phone">
-                <span class="phone">8 800 725 32 32</span>
+                <a class="phone" href="tel:+78007253232" aria-label="8 800 725 32 32"></a>
             </div>
         </div>
     </header>
@@ -61,10 +64,22 @@
                 <button> Выбрать экскурсию </button>
             </div>
             <div class="main-banner__right-icons">
-                <!-- здесь вставить спрайт -->
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <!-- здесь спрайт -->
+                <div class="header-icon__vk">
+                    <svg width="12" height="8">
+                        <use xlink:href="sprites/icons.svg#header-icon__vk"></use>
+                    </svg>
+                </div>
+                <div class="header-icon__fb">
+                    <svg width="6" height="11">
+                        <use xlink:href="sprites/icons.svg#header-icon__fb"></use>
+                    </svg>
+                </div>
+                <div class="header-icon__insta">
+                    <svg width="13" height="13">
+                        <use xlink:href="sprites/icons.svg#header-icon__insta"></use>
+                    </svg>
+                </div>
             </div>
             </div>
         </section>
@@ -78,15 +93,34 @@
             <div class="tour-items">
                 <div class="tour1">
                     <div class="tours-items__first-line">
+                        <div class="tour-icon_location">
+                            <svg width="9" height="12">
+                                <use xlink:href="sprites/icons.svg#tour-icon__location"></use>
+                            </svg>
+                        </div>
                         <div class="tour__location">Кавказ</div>
+                        <div class="tour-icon_sun">
+                            <svg width="23" height="22">
+                                <use xlink:href="sprites/icons.svg#tour-icon__sun"></use>
+                            </svg>
+                        </div>
                         <div class="tour__sun">4 дня</div>
+                        <div class="tour-icon_moon">
+                            <svg width="20" height="20">
+                                <use xlink:href="sprites/icons.svg#tour-icon__moon"></use>
+                            </svg>
+                        </div>
                         <div class="tour__moon">3 ночи</div>
                     </div>
                     <h3>Путешествие
                         вокруг Эльбруса</h3>
                     <div class="tour-items__first-column">
                         <div class="tour__bottom-text">Сложность:</div>
-                        <div class="rating"> svg </div>
+                        <div class="tour-icon_rating">
+                            <svg width="79" height="14">
+                                <use xlink:href="sprites/icons.svg#tour-icon__stars"></use>
+                            </svg>
+                        </div>
                     </div>
                     <div class="tour-items__second-column">
                         <div class="tour__bottom-text">Даты набора:</div>
@@ -100,14 +134,33 @@
 
                 <div class="tour2">
                     <div class="tours-items__first-line">
+                        <div class="tour-icon_location">
+                            <svg width="9" height="12">
+                                <use xlink:href="sprites/icons.svg#tour-icon__location"></use>
+                            </svg>
+                        </div>
                         <div class="tour__location">Ингушетия</div>
+                        <div class="tour-icon_sun">
+                            <svg width="23" height="22">
+                                <use xlink:href="sprites/icons.svg#tour-icon__sun"></use>
+                            </svg>
+                        </div>
                         <div class="tour__sun">5 дней</div>
+                        <div class="tour-icon_moon">
+                            <svg width="20" height="20">
+                                <use xlink:href="sprites/icons.svg#tour-icon__moon"></use>
+                            </svg>
+                        </div>
                         <div class="tour__moon">4 ночи</div>
                     </div>
                     <h3>Восхождение на гору Столовая</h3>
                     <div class="tour-items__first-column">
                         <div class="tour__bottom-text">Сложность:</div>
-                        <div class="rating"> svg </div>
+                        <div class="tour-icon_rating">
+                            <svg width="79" height="14">
+                                <use xlink:href="sprites/icons.svg#tour-icon__stars2"></use>
+                            </svg>
+                        </div>
                     </div>
                     <div class="tour-items__second-column">
                         <div class="tour__bottom-text">Даты набора:</div>
@@ -121,15 +174,34 @@
 
                 <div class="tour3">
                     <div class="tours-items__first-line">
+                        <div class="tour-icon_location">
+                            <svg width="9" height="12">
+                                <use xlink:href="sprites/icons.svg#tour-icon__location"></use>
+                            </svg>
+                        </div>
                         <div class="tour__location">Адыгея</div>
+                        <div class="tour-icon_sun">
+                            <svg width="23" height="22">
+                                <use xlink:href="sprites/icons.svg#tour-icon__sun"></use>
+                            </svg>
+                        </div>
                         <div class="tour__sun">7 дней</div>
+                        <div class="tour-icon_moon">
+                            <svg width="20" height="20">
+                                <use xlink:href="sprites/icons.svg#tour-icon__moon"></use>
+                            </svg>
+                        </div>
                         <div class="tour__moon">6 ночей</div>
                     </div>
                     <h3>Через Фишт
                         к Черному морю</h3>
                     <div class="tour-items__first-column">
                         <div class="tour__bottom-text">Сложность:</div>
-                        <div class="rating"> svg </div>
+                        <div class="tour-icon_rating">
+                            <svg width="79" height="14">
+                                <use xlink:href="sprites/icons.svg#tour-icon__stars"></use>
+                            </svg>
+                        </div>
                     </div>
                     <div class="tour-items__second-column">
                         <div class="tour__bottom-text">Даты набора:</div>
@@ -190,11 +262,15 @@
                                     alt="Фото профиля - Светлана Афиногенова">
                             </div>
                             <div class="person-name">Светлана Афиногенова</div>
-                            <div class="person-icon"> svg </div>
+                            <div class="person-icon">
+                                <svg width="14" height="8">
+                                    <use xlink:href="sprites/icons.svg#edu-icon__vk"></use>
+                                </svg>
+                            </div>
                             <div class="person-text">
                                 <p class="person-text-style">Видеть мир вокруг, познавать его опасности, смотреть сквозь
-                                    стены,
-                                    находить друг друга, становиться ближе, чувствовать — в этом назначение жизни.</p>
+                                    стены, находить друг друга, становиться ближе, чувствовать — в этом назначение
+                                    жизни.</p>
                             </div>
                         </div>
                         <div class="person3">
@@ -204,7 +280,11 @@
                             </div>
                             <div class="person-name">Надежда
                                 Колесниченко</div>
-                            <div class="person-icon"> svg </div>
+                            <div class="person-icon">
+                                <svg width="14" height="8">
+                                    <use xlink:href="sprites/icons.svg#edu-icon__vk"></use>
+                                </svg>
+                            </div>
                             <div class="person-text">
                                 <p class="person-text-style">Участники говорят, что Надежда ответственная, приятная в
                                     общении,
@@ -217,7 +297,11 @@
                                     alt="Фото профиля - Федор Кайгородов">
                             </div>
                             <div class="person-name">Федор Кайгородов</div>
-                            <div class="person-icon"> svg </div>
+                            <div class="person-icon">
+                                <svg width="14" height="8">
+                                    <use xlink:href="sprites/icons.svg#edu-icon__vk"></use>
+                                </svg>
+                            </div>
                             <div class="person-text">
                                 <p class="person-text-style">Опыт походов: Ходит в походы с 2001 года. В России побывал
                                     в горных районах Хибины,
@@ -229,7 +313,11 @@
                                 <img src="../caucasus_start/images/Mask Group4.png" alt="Фото профиля - Сергей Денисов">
                             </div>
                             <div class="person-name">Сергей Денисов</div>
-                            <div class="person-icon"> svg </div>
+                            <div class="person-icon">
+                                <svg width="14" height="8">
+                                    <use xlink:href="sprites/icons.svg#edu-icon__vk"></use>
+                                </svg>
+                            </div>
                             <div class="person-text">
                                 <p class="person-text-style">Профессиональный гид, путешественник, спортсмен, альпинист.
                                     Блестящий рассказчик, собеседник; с ним не скучно.
@@ -242,23 +330,39 @@
                     <h3>Процесс обучения</h3>
                     <div class="edu-process-items__list">
                         <div class="edu-process-items__item1"></div>
-                        <div class="edu-process-items__icon"> svg </div>
+                        <div class="edu-process-items__icon">
+                            <svg width="25" height="25">
+                                <use xlink:href="sprites/icons.svg#edu-process-icon__map"></use>
+                            </svg>
+                        </div>
                         <div class="edu-process-items__text">
                             <p class="edu-text">Изучение спортивного
                                 туристского движения</p>
                         </div>
                         <div class="edu-process-items__item2">
-                            <div class="edu-process-items__icon"> svg </div>
+                            <div class="edu-process-items__icon">
+                                <svg width="24" height="24">
+                                    <use xlink:href="sprites/icons.svg#edu-process-icon__boot"></use>
+                                </svg>
+                            </div>
                             <p class="edu-text">Подготовка и техническое
                                 снаряжение в походах</p>
                         </div>
                         <div class="edu-process-items__item3">
-                            <div class="edu-process-items__icon"> svg </div>
+                            <div class="edu-process-items__icon">
+                                <svg width="23" height="23">
+                                    <use xlink:href="sprites/icons.svg#edu-process-icon__tree"></use>
+                                </svg>
+                            </div>
                             <p class="edu-text">Лекции по экологии,
                                 окружающей среде и гигиене</p>
                         </div>
                         <div class="edu-process-items__item4">
-                            <div class="edu-process-items__icon"> svg </div>
+                            <div class="edu-process-items__icon">
+                                <svg width="25" height="25">
+                                    <use xlink:href="sprites/icons.svg#edu-process-icon__mount"></use>
+                                </svg>
+                            </div>
                             <p class="edu-text">Разъяснение характера горных препядствий и их сложности </p>
                         </div>
                     </div>
@@ -435,7 +539,7 @@
 
     <!-- Footer - (logo - bottom menu - phone - smm icons - link) -->
 
-    <footer class='section'>
+    <footer class='footer-section'>
         <div class="wrapper">
             <div class="top-panel">
                 <div class="logo">
@@ -466,14 +570,26 @@
                     </nav>
                 </div>
                 <div class="footer__phone">
-                    <span class="phone">8 800 725 32 32</span>
+                    <a class="phone" href="tel:+78007253232" aria-label="8 800 725 32 32">
                 </div>
             </div>
             <div class="bottom">
-                <div class="footer-smm-icons">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="footer-icons">
+                    <div class="footer-icons__vk">
+                        <svg width="17" height="17">
+                            <use xlink:href="sprites/icons.svg#edu-icon__vk"></use>
+                        </svg>
+                    </div>
+                    <div class="footer-icons__fb">
+                        <svg width="8" height="15">
+                            <use xlink:href="sprites/icons.svg#footer-fb"></use>
+                        </svg>
+                    </div>
+                    <div class="footer-icons__insta">
+                        <svg width="18" height="18">
+                            <use xlink:href="sprites/icons.svg#footer-insta"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="footer-policy">
                     <span class="footer__policy">Политика конфиденциальности</span>
