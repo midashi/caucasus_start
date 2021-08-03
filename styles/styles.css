@@ -4,7 +4,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  background-color: #fff;
   font-style: normal;
   font-weight: 400;
 }
@@ -24,8 +23,7 @@ button {
 
 .wrapper {
   position: relative;
-  max-width: 1195px;
-  width: 100%;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -35,31 +33,56 @@ button {
   margin: 0 auto;
 }
 
+.top {
+display: flex;
+flex-wrap: nowrap;
+max-width: 1300px;
+margin: 0;
+margin-top: 40px;
+background-image: url(../images/back.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
 .header__logo {
-  position: absolute;
-  left: 122px;
-  top: 42px;
-}
-
-.logo__link {
-  display: block;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.logo__link:hover {
-  opacity: 0.5;
+  max-width: 226px;
 }
 
 .header__menu {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-  position: absolute;
-  width: 658px;
-  height: 14px;
-  left: 412px;
-  top: 69px;
+width: 700px;
 }
 
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 25px;
+   color: #FFF;
+
+  }
+
+.li {
+  list-style-type: none;
+  text-align: center;
+  
+}
+
+.header__phone {
+position: absolute;
+max-width: 164px;
+height: 16px;
+left: 1000px;
+top: 68px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 30px;
+text-align: right;
+color: #FFF;
+}

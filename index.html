@@ -18,12 +18,15 @@
 
 <body>
     <!-- Header- (logo - top menu - phone) -->
-    <header class=top>
+    <header>
         <div class="wrapper">
+            <div class="top">
             <div class="header__logo">
-                <a href="#" class="logo__link">
-                    <img src="/images/Group.png" alt="logotype" width="226 height="62"><a />
-            </div>
+                <svg width="226" height="62">
+                    <use xlink:href="sprites/icons.svg#logo"></use>
+                </svg>
+                             </div>
+
             <div class="header__menu">
                 <nav>
                     <ul class="menu">
@@ -51,13 +54,9 @@
                 <a class="phone" href="tel:+78007253232" aria-label="8 800 725 32 32"></a>
             </div>
         </div>
-    </header>
-
-    <main>
-
-        <!-- Main banner - (text - button - background image (наверное, картинку в стилях прописать?) - smm icons) -->
-        <section class="Main-banner">
-            <div class="wrapper">
+        
+        <div class="main-banner">
+         
             <div class="main-banner__left">
                 <h1>Походы в горы Кавказа</h1>
                 <p>Профессионально организовываем экскурсии
@@ -83,7 +82,11 @@
                 </div>
             </div>
             </div>
-        </section>
+        </div>
+
+    </header>
+
+    <main>
 
         <!-- tours block - (heading - switcher - tour1 - tour2 - tour3 - see all link - background image (наверное, в стилях прописать) ) -->
         <section class="tours">
