@@ -39,9 +39,6 @@ flex-wrap: nowrap;
 max-width: 1300px;
 margin: 0;
 margin-top: 40px;
-background-image: url(../images/back.png);
-background-repeat: no-repeat;
-background-position: center;
 }
 
 .header__logo {
@@ -86,3 +83,41 @@ line-height: 30px;
 text-align: right;
 color: #FFF;
 }
+
+.main-banner {
+background-image: url(../images/back.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+h1 {
+  font-family: "Montserrat";
+font-style: normal;
+font-weight: 800;
+font-size: 45px;
+line-height: 55px;
+color: #FFFFFF;
+}
+
+.main-banner__text {
+font-family: "Montserrat";
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 148.6%;
+color: #FFFFFF;
+}
+
+button {
+  position: absolute;
+  width: 246px;
+  height: 59px;
+  background: #0266C1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 158.86%;
+  color: #FFFFFF;
+}
+
