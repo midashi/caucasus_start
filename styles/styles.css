@@ -28,12 +28,12 @@ button {
 }
 
 .site-header {
-  max-width: 1440px;
-  max-height: 774px;
   margin: 0 auto;
   background-image: url(../images/облака.png), url(../images/back.png) ;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom 0;
+  min-height: 770px;
   }
 
 
@@ -83,7 +83,7 @@ button {
 
 .main-banner {
   position: relative;
-}
+     }
 
 .main-banner__shadow_text {
   position: absolute;
@@ -118,7 +118,7 @@ button {
 .main-banner__paragraph {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 19px;
   line-height: 28px;
   color: #fff;
@@ -137,45 +137,26 @@ button {
   margin-top: 35px;
 }
 
-.main-banner__button {
-  margin-bottom: 264px;
-}
-
 .main-banner__icons {
-  max-width: 100px;
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: flex-end;
-
-  /* position: absolute;
-  right: 0px;
-  width: 98px;
-  height: 21.3px;
-  left: 1519px;
-  top: 625px;
-  bottom: 127px; */
+  position: absolute;
+  right: 0;
 }
 
-.header-icon__vk {
+.main-banner-icon {
   width: 22px;
   background: #0266c1;
   opacity: 0.43;
   margin-right: 22px;
-}
+  height: 22px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  }
 
-.header-icon__fb {
-  width: 22px;
-  background: #0266c1;
-  opacity: 0.43;
-  margin-right: 22px;
-}
-
-.header-icon__insta {
-  width: 22px;
-  background: #0266c1;
-  opacity: 0.43;
-}
+  /* tours section */
 
 h2 {
   font-family: "Montserrat";
@@ -185,13 +166,50 @@ h2 {
   color: #2d383f;
 }
 
+.tour-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.tour-items_text {
+  font-family: Montserrat;
+  color: #FFFFFF;
+}
 
+.tour {
+  width: 384px;
+  height: 412px;
+  display: flex;
+  flex-direction: column;
+}
 
+.tour1 {
+  background-image: url(/images/tour1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.tour2 {
+  background-image: url(/images/tour2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.tour3 {
+  background-image: url(/images/tour3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.tours-items__first-line {
+  display: flex;
+  justify-content: space-around;
+  }
 
+.tour-heading {
+
+}
 
 
 
@@ -225,8 +243,6 @@ h2 {
 
 
 
-footer__phone
-
 .f-phone {
   font-family: "Montserrat";
   font-style: normal;
@@ -247,24 +263,16 @@ footer__phone
   margin-bottom: 35px;
 }
 
-.footer-icons__vk {
+.footer-icon {
   opacity: 0.43;
 border: 1px solid #2D383F;
 box-sizing: border-box;
+display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
 }
-
-.footer-icons__fb {
-  opacity: 0.43;
-border: 1px solid #2D383F;
-box-sizing: border-box;
-}
-
-.footer-icons__insta {
-  opacity: 0.43;
-border: 1px solid #2D383F;
-box-sizing: border-box;
-}
-
 
 .footer-policy {
   display: flex;
