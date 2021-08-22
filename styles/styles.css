@@ -30,13 +30,12 @@ button {
 
 .site-header {
   margin: 0 auto;
-  background-image: url(../images/облака.png), url(../images/back.png) ;
+  background-image: url(../images/облака.png), url(../images/back.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom 0;
   min-height: 770px;
-  }
-
+}
 
 .top {
   display: flex;
@@ -153,17 +152,17 @@ button {
   opacity: 0.43;
   margin-right: 22px;
   height: 22px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  }
+}
 
-  /* tours section */
+/* tours section */
 
 .tour__head {
-display: flex;
-align-items: center;
-justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h2 {
@@ -177,7 +176,6 @@ h2 {
 .switcher {
   display: flex;
   align-items: center;
-
 }
 
 .switcher-left {
@@ -196,7 +194,7 @@ h2 {
   height: 37px;
   width: 35px;
   display: flex;
-  background-color: #0266C1;
+  background-color: #0266c1;
   background-image: url("/images/Arrow.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -219,7 +217,7 @@ h2 {
   height: 37px;
   width: 35px;
   display: flex;
-  background-color: #0266C1;
+  background-color: #0266c1;
   background-image: url("/images/Arrow_right.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -234,16 +232,16 @@ h2 {
 
 .tour-items_text {
   font-family: Montserrat;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .tour {
   width: 384px;
   height: 412px;
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   flex-direction: column;
-align-content: space-around;
+  align-content: space-around;
 }
 
 .tour1 {
@@ -267,59 +265,60 @@ align-content: space-around;
 .tours-items__first-line {
   display: flex;
   justify-content: space-around;
-  }
+}
 
-  .tour__location {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100px;
-    height: 30px;
-    background: #0266C1;
-      }
+.tour__location {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 30px;
+  background: #0266c1;
+}
 
-      .tour__duration {
-        display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 85px;
-    height: 22px;
-             }
+.tour__duration {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85px;
+  height: 22px;
+}
 
-   .tour-heading {
-    padding-left: 18px;
-   }
+.tour-heading {
+  font-size: 24px;
+  padding-left: 18px;
+}
 
-      .tour-items__columns {
-        display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 20px;
-         }
+.tour-items__columns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
 
-  .tour__location-ing {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 120px;
-    height: 30px;
-    background: #0266C1;
-  }
+.tour__location-ing {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 120px;
+  height: 30px;
+  background: #0266c1;
+}
 
-  .tour__duration-long {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 92px;
-    height: 22px;
-  }
+.tour__duration-long {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 92px;
+  height: 22px;
+}
 
 .tour__line {
   margin: 0;
   padding-left: 18px;
   padding-bottom: 17px;
   display: flex;
-  }
+}
 
 .tour__line::before {
   content: "";
@@ -334,25 +333,66 @@ align-content: space-around;
 
 .see-all-link {
   font-family: "Montserrat";
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-color: #2D383F;
-display: flex;
-justify-content: center;
-padding-top: 60px;
-padding-bottom: 32px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #2d383f;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 32px;
 }
-
-/* persons */
 
 .persons {
-  display:flex;
-  align-items: center;
-  
+  padding-top: 30px;
 }
+
+.persons__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.persons-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.person-photo {
+max-width: 204px;
+max-height: 212px;
+}
+
+.person-name-and-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.person-name {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+color: #000;
+}
+
+.person-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000;
+  
+
+}
+
+
+
 
 
 
@@ -366,24 +406,21 @@ padding-bottom: 32px;
   max-height: 165px;
 }
 
-
 .footer-panel {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .footer-menu__item {
- margin-right: 46px;
+  margin-right: 46px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  color: #2D383F;
+  color: #2d383f;
 }
-
-
 
 .f-phone {
   font-family: "Montserrat";
@@ -391,9 +428,8 @@ padding-bottom: 32px;
   font-weight: bold;
   font-size: 19px;
   text-align: right;
-  color: #2D383F;
+  color: #2d383f;
 }
-
 
 .footer-icons {
   max-width: 130px;
@@ -407,9 +443,9 @@ padding-bottom: 32px;
 
 .footer-icon {
   opacity: 0.43;
-border: 1px solid #2D383F;
-box-sizing: border-box;
-display:flex;
+  border: 1px solid #2d383f;
+  box-sizing: border-box;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 22px;
@@ -424,9 +460,9 @@ display:flex;
 }
 
 .footer-policy__text {
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-color: #2D383F;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #2d383f;
 }
