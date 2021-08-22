@@ -83,7 +83,7 @@
                     </div>
                 </div>
             </div>
-          
+
         </div>
 
     </header>
@@ -93,72 +93,76 @@
         <!-- tours block - (heading - switcher - tour1 - tour2 - tour3 - see all link - background image (наверное, в стилях прописать) ) -->
         <section class="tours">
             <div class="wrapper">
-                <h2>Ближайшие туры</h2>
-                <div class="switcher"> </div>
+                <div class="tour__head">
+                    <h2>Ближайшие туры</h2>
+                    <div class="switcher">
+                        <div class="switcher-left"></div>
+                        <div class="switcher-right"></div>
+                    </div>
+                </div>
                 <div class="tour-items tour-items_text">
                     <div class="tour tour1">
                         <div class="tours-items__first-line">
-                            <div class="tour-icon_location">
+                            <div class="tour__location">
                                 <svg width="9" height="12">
                                     <use xlink:href="sprites/icons.svg#tour-icon__location"></use>
-                                </svg>
+                                </svg> Кавказ
                             </div>
-                            <div class="tour__location">Кавказ</div>
-                            <div class="tour-icon_sun">
-                                <svg width="23" height="22">
+                            <div class="tour__duration">
+                                <svg width="25" height="25">
                                     <use xlink:href="sprites/icons.svg#tour-icon__sun"></use>
-                                </svg>
+                                </svg> 4 дня
                             </div>
-                            <div class="tour__sun">4 дня</div>
-                            <div class="tour-icon_moon">
+                            <div class="tour__duration">
                                 <svg width="20" height="20">
                                     <use xlink:href="sprites/icons.svg#tour-icon__moon"></use>
-                                </svg>
+                                </svg> 3 ночи
                             </div>
-                            <div class="tour__moon">3 ночи</div>
                         </div>
                         <h3 class="tour-heading">Путешествие
                             вокруг Эльбруса</h3>
-                        <div class="tour-items__first-column">
-                            <div class="tour__bottom-text">Сложность:</div>
-                            <div class="tour-icon_rating">
-                                <svg width="79" height="14">
-                                    <use xlink:href="sprites/icons.svg#tour-icon__stars"></use>
-                                </svg>
+                        <div class="tour__line"></div>
+                        <div class="tour-items__columns">
+                            <div class="tour-items__first-column">
+                                <div class="tour__bottom-text">Сложность:</div>
+                                <div class="tour-icon_rating">
+                                    <svg width="79" height="14">
+                                        <use xlink:href="sprites/icons.svg#tour-icon__stars"></use>
+                                    </svg>
+                                </div>
                             </div>
-                        </div>
-                        <div class="tour-items__second-column">
-                            <div class="tour__bottom-text">Даты набора:</div>
-                            <div class="tour__bottom-text-bold">12.06-19.06</div>
-                        </div>
-                        <div class="tour-items__third-column">
-                            <div class="tour__bottom-text">Группа:</div>
-                            <div class="tour__bottom-text-bold">до 15 чел.</div>
+                            <div class="tour-items__second-column">
+                                <div class="tour__bottom-text">Даты набора:</div>
+                                <div class="tour__bottom-text-bold">12.06-19.06</div>
+                            </div>
+                            <div class="tour-items__third-column">
+                                <div class="tour__bottom-text">Группа:</div>
+                                <div class="tour__bottom-text-bold">до 15 чел.</div>
+                            </div>
                         </div>
                     </div>
 
                     <div class="tour tour2">
                         <div class="tours-items__first-line">
-                            <div class="tour-icon_location">
+                            <div class="tour__location-ing">
                                 <svg width="9" height="12">
                                     <use xlink:href="sprites/icons.svg#tour-icon__location"></use>
-                                </svg>
+                                </svg> Ингушетия
                             </div>
-                            <div class="tour__location">Ингушетия</div>
-                            <div class="tour-icon_sun">
+                            <div class="tour__duration">
                                 <svg width="23" height="22">
                                     <use xlink:href="sprites/icons.svg#tour-icon__sun"></use>
-                                </svg>
+                                </svg> 5 дней
                             </div>
-                            <div class="tour__sun">5 дней</div>
-                            <div class="tour-icon_moon">
+                            <div class="tour__duration">
                                 <svg width="20" height="20">
                                     <use xlink:href="sprites/icons.svg#tour-icon__moon"></use>
-                                </svg>
+                                </svg> 4 ночи
                             </div>
-                            <div class="tour__moon">4 ночи</div>
                         </div>
                         <h3 class="tour-heading">Восхождение на гору Столовая</h3>
+                        <div class="tour__line"></div>
+                        <div class="tour-items__columns">
                         <div class="tour-items__first-column">
                             <div class="tour__bottom-text">Сложность:</div>
                             <div class="tour-icon_rating">
@@ -176,30 +180,27 @@
                             <div class="tour__bottom-text-bold">до 25 чел.</div>
                         </div>
                     </div>
+                </div>
 
                     <div class="tour tour3">
                         <div class="tours-items__first-line">
-                            <div class="tour-icon_location">
-                                <svg width="9" height="12">
-                                    <use xlink:href="sprites/icons.svg#tour-icon__location"></use>
-                                </svg>
+                            <div class="tour__location">
+                                                                    <svg width="9" height="12">
+                                        <use xlink:href="sprites/icons.svg#tour-icon__location"></use>
+                                    </svg> Адыгея
                             </div>
-                            <div class="tour__location">Адыгея</div>
-                            <div class="tour-icon_sun">
+                            <div class="tour__duration">
                                 <svg width="23" height="22">
                                     <use xlink:href="sprites/icons.svg#tour-icon__sun"></use>
-                                </svg>
-                            </div>
-                            <div class="tour__sun">7 дней</div>
-                            <div class="tour-icon_moon">
+                                </svg> 7 дней</div>
+                            <div class="tour__duration-long">
                                 <svg width="20" height="20">
                                     <use xlink:href="sprites/icons.svg#tour-icon__moon"></use>
-                                </svg>
-                            </div>
-                            <div class="tour__moon">6 ночей</div>
+                                </svg> 6 ночей</div>
                         </div>
-                        <h3 class="tour-heading">Через Фишт
-                            к Черному морю</h3>
+                        <h3 class="tour-heading">Через Фишт к Черному морю</h3>
+                        <div class="tour__line"></div>
+                        <div class="tour-items__columns">
                         <div class="tour-items__first-column">
                             <div class="tour__bottom-text">Сложность:</div>
                             <div class="tour-icon_rating">
@@ -216,13 +217,15 @@
                             <div class="tour__bottom-text">Группа:</div>
                             <div class="tour__bottom-text-bold">до 22 чел.</div>
                         </div>
+                        </div>
                     </div>
                 </div>
-                <div class="see-all-link">
-                    <a href="">Показать все туры</a>
+                <div class="see-all">
+                    <a class="see-all-link" href="">Показать все туры ></a>
                     <img src="" alt="">
                 </div>
-            </div>
+                            </div>
+                          
         </section>
 
         <!--Persons block - (text block (heading - text) - persons block - (heading - switcher - person1 - person2 - person3
@@ -236,16 +239,15 @@
                         Крыма, Гималаев, Эльбруса, Алтая, Карелии, Адыгеи и других.</p>
                 </div>
 
-                <div class="persons">
+                <div class="persons__head">
                     <h3>Наши инструкторы</h3>
                     <div class="switcher">
-                        <div class="switcher-left">
-                            svg
-                        </div>
-                        <div class="switcher-right">
-                            svg
-                        </div>
+                        <div class="switcher-left"></div>
+                        <div class="switcher-right"></div>
                     </div>
+                </div>
+                <div class="persons">
+                   
                     <div class="persons-list">
                         <div class="person1">
                             <div class="person-photo">
